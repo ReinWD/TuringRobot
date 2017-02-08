@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" tools:context=".MainActivity">
+
+    <LinearLayout  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@color/light_blue" android:padding="15dp" >
+        <ImageView  android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/rtn" />
+        <TextView  android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp" android:textColor="@color/white" android:text="消息"/>
+        <TextView  android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="25sp" android:textColor="@color/white" android:gravity="center" android:text="张起灵" />
+        <ImageView  android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/call" />
+        <ImageView  android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/contactor" android:layout_marginLeft="10dp" />
+
+    </LinearLayout>
+    <ListView  android:id="@+id/listview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:background="@drawable/white" android:divider="#0000"></ListView>
+    <LinearLayout  android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:background="@color/gray" android:layout_margin="10dp" android:gravity="center">
+        <ImageView  android:id="@+id/biaoqing" android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/expression"/>
+        <ImageView  android:id="@+id/choose" android:layout_width="30dp" android:layout_height="30dp" android:src="@mipmap/plus" android:layout_marginLeft="10dp"/>
+        <EditText  android:id="@+id/edittext" android:layout_width="0dp" android:layout_height="30dp" android:layout_weight="1" android:background="@color/gray" android:layout_marginLeft="10dp"/>
+        <Button  android:id="@+id/send" android:layout_width="wrap_content" android:layout_height="30dp" android:text="发送" android:background="@color/colorAccent" android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+
